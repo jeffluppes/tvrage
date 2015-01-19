@@ -8,6 +8,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 
+import com.example.jeff.tvrage.com.example.jeff.tvrage.xmlparser.ShowInfoParser;
+
 
 public class MyActivity extends Activity {
     public final static String EXTRA_MESSAGE = "com.example.jeff.tvrage.MESSAGE";
@@ -16,6 +18,8 @@ public class MyActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my);
+        ShowInfoParser showinfoparser = new ShowInfoParser(18164);
+        showinfoparser.parse();
     }
 
     /** Called when the user clicks the Send button */
