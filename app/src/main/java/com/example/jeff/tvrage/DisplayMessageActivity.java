@@ -20,7 +20,7 @@ public class DisplayMessageActivity extends Activity {
 
         // Create the text view
         TextView textView = new TextView(this);
-        textView.setTextSize(40);
+        textView.setTextSize(20);
         textView.setText("U heeft gezocht naar: "+message);
 
         // Set the text view as the activity layout

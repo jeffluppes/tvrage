@@ -9,7 +9,7 @@ import com.example.jeff.tvrage.com.example.jeff.tvrage.xmlparser.feedreaders.Sho
 import org.xmlpull.v1.XmlPullParser;
 
 /**
- * Created by Neutron-PC-Windows on 19-1-2015.
+ * Created by Jeff on 19-1-2015.
  */
 public class ShowInfoParser {
     int sid;
@@ -36,8 +36,8 @@ public class ShowInfoParser {
         } catch(Exception e) {
             e.printStackTrace();
         }
-
-        Log.w("tvrage", "done with parsing");
+        Show show = (Show) feedreader.getParsedObject();
+        Log.w("tvrage", "done with parsing"+ show.getName());
 
         this.isDone = true;
     }

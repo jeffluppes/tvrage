@@ -7,7 +7,7 @@ import com.example.jeff.tvrage.com.example.jeff.tvrage.objects.Show;
 import org.xmlpull.v1.XmlPullParser;
 
 /**
- * Created by Neutron-PC-Windows on 19-1-2015.
+ * Created by Jeff on 19-1-2015.
  */
 public class ShowInfoFeedReader implements FeedReader {
 
