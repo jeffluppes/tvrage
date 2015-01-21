@@ -37,7 +37,7 @@ public class ShowInfoParser {
             e.printStackTrace();
         }
         Show show = (Show) feedreader.getParsedObject();
-        Log.w("tvrage", "done with parsing"+ show.getName());
+        Log.w("tvrage", "done with parsing, show's name was: "+ show.getName());
 
         this.isDone = true;
     }
