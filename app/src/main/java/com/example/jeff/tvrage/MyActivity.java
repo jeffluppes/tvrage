@@ -3,12 +3,17 @@ package com.example.jeff.tvrage;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 
+import com.example.jeff.tvrage.com.example.jeff.tvrage.objects.Show;
 import com.example.jeff.tvrage.com.example.jeff.tvrage.xmlparser.ShowInfoParser;
+
+import org.springframework.http.converter.xml.SimpleXmlHttpMessageConverter;
+import org.springframework.web.client.RestTemplate;
 
 
 public class MyActivity extends Activity {

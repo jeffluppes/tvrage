@@ -9,6 +9,47 @@ public class Show {
     String name;
     int sid;
     int totalSeasons;
+
+    public int getSid() {
+        return sid;
+    }
+
+    public void setSid(int sid) {
+        this.sid = sid;
+    }
+
+    public int getTotalSeasons() {
+        return totalSeasons;
+    }
+
+    public void setTotalSeasons(int totalSeasons) {
+        this.totalSeasons = totalSeasons;
+    }
+
+    public String[] getGenres() {
+        return genres;
+    }
+
+    public void setGenres(String[] genres) {
+        this.genres = genres;
+    }
+
+    public String getOriginCountry() {
+        return originCountry;
+    }
+
+    public void setOriginCountry(String originCountry) {
+        this.originCountry = originCountry;
+    }
+
+    public String getStartedOn() {
+        return startedOn;
+    }
+
+    public void setStartedOn(String startedOn) {
+        this.startedOn = startedOn;
+    }
+
     String[] genres;
     String originCountry;
     String startedOn;

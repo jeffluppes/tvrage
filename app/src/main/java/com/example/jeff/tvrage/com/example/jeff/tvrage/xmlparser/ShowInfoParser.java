@@ -6,16 +6,14 @@ import com.example.jeff.tvrage.com.example.jeff.tvrage.objects.Show;
 import com.example.jeff.tvrage.com.example.jeff.tvrage.xmlparser.feedreaders.FeedReader;
 import com.example.jeff.tvrage.com.example.jeff.tvrage.xmlparser.feedreaders.ShowInfoFeedReader;
 
-import org.xmlpull.v1.XmlPullParser;
-
 /**
  * Created by Jeff on 19-1-2015.
  */
-public class ShowInfoParser {
+public class ShowInfoParser2 {
     int sid;
     private volatile boolean isDone = false;
 
-    public ShowInfoParser(int sid) {
+    public ShowInfoParser2(int sid) {
         this.sid = sid;
     }
 
